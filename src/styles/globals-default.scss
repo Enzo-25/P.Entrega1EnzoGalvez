@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: rgb(148, 206, 69) !important;
+}
+
+.swiper {
+    width: 1300px;
+    background-color: white;
+}
+
+.map-container {
+    width: 100%;
+    height: 100vh;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1024px) {
+    .swiper {
+        width: 700px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .swiper {
+        width: 500px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: fit-content;
+        
+    }
+
+    .swiper {
+        width: 400px;
+    }
+}
+
